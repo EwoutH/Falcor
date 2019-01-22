@@ -1,0 +1,8 @@
+language: cpp
+configuration: Release
+
+install:
+ - sudo apt-get install python python3-dev libassimp-dev libglfw3-dev libgtk-3-dev libfreeimage-dev libavcodec-dev libavdevice-dev libavformat-dev libswscale-dev libavutil-dev
+
+script:
+ - make
