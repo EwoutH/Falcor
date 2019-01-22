@@ -8,4 +8,4 @@ script:
  - make
 
 test_script:
- - *.py
+ - Tests/*.py
