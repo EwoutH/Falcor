@@ -1,2 +1,4 @@
 image: Visual Studio 2017
-project: Falcor.sln
+
+build:
+  project: Falcor.sln
